@@ -1,0 +1,55 @@
+.app-container {
+  display: flex;
+}
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.nav-link {
+  color: white;
+  padding: 10px 20px;
+}
+.nav-link:hover {
+  background-color: #575d63;
+}
+.sidebar-footer {
+  padding: 20px;
+  text-align: center;
+}
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.btn-block {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.main-content {
+  margin-left: 250px; /* Este margen debe ser igual al ancho de la barra lateral */
+  padding: 20px;
+  width: calc(100% - 250px);
+}
+
+.nickname {
+  color: white; /* Color del texto por defecto */
+  text-decoration: none; /* Sin subrayado por defecto */
+  transition:
+    color 0.3s ease,
+    text-decoration 0.3s ease;
+}
+
+.nickname:hover {
+  color: #007bff; /* Color del texto en hover */
+  text-decoration: underline; /* Subrayado en hover */
+}

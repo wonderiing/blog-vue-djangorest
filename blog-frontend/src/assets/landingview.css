@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1d2b53; /* Color de fondo */
+  height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.main-content {
+  flex: 1;
+  padding: 60px 20px;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+  margin: 0 auto;
+  max-width: 1200px; /* Ajusta el ancho máximo si es necesario */
+}
+
+.main-content p {
+  margin-bottom: 40px;
+}
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Puedes añadir esto a tu archivo CSS para eliminar posibles márgenes/paddings inesperados */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
